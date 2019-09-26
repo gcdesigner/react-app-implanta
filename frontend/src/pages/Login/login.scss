@@ -1,0 +1,22 @@
+.wrapper-login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card .card-body {
+    display: flex;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.5rem;
+    padding: 1.5rem;
+}
+img {
+    max-width: 200px;
+}
+.form-login {
+    width: 250px;
+}
