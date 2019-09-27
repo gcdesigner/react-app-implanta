@@ -2,13 +2,19 @@
 	border-bottom: 0;
 
 	.nav-item a {
-		position: relative;
+        position: relative;
+        display: flex;
+        align-items: center;
 		border: 1px solid #d1d1d1;
 		margin-right: 10px;
 		border-bottom: 0;
 		color: #666;
-		background: #f5f5f5;
-		padding: 15px 25px;
+		background: #fff;
+        padding: 15px 25px;
+        
+        svg {
+            margin-right: 5px;
+        }
 
 		&.active {
 			border-left: 2px solid blue;
